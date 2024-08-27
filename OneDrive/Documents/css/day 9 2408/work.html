@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        *{
+            margin: 0;
+            border: 0;
+            background-color: lightslategray;
+        
+        }
+        img{
+            display: inline-block;
+          border-radius: 50%;
+          margin-left: 50px ;
+          margin-bottom: 100px;
+            
+         }
+        .container{
+            
+            width: 100%;
+            height: 100%;
+            
+           
+        }
+        p{
+            text-align: justify;
+            font-display: small;
+           text-shadow: 1px 1px red;
+           text-indent: 50px;
+           text-wrap: wrap;  
+           animation: zoom-in-zoom-out 8s ease ;
+           transition-duration: 20s;
+           margin: 50px;
+           
+           
+    }
+    @keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(-100, -100);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(-100, -100);
+  }
+}    
+
+        h1{
+            text-shadow: 2px 2px black;
+            color: white;
+            margin-bottom: 80px;
+            
+        }
+    
+        .first{
+            margin: 20px;
+            text-align: center;
+            -webkit-animation-duration: 2s ;
+            animation-duration: 2s ;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        
+            -webkit-animation-name: fadeInDown;
+            animation-name: fadeInDown;
+            
+
+        }
+        @keyframes fadeInDown {
+   0% {
+      opacity: 0;
+      transform: translateY(-20px) ;
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+  }
+  h1::first-letter{
+    font-size: xxx-large;
+    color: rgb(12, 224, 220);
+  }
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="first">
+<h1>Mahesh Babu</h1></div>
+
+<center><div id="pic">
+<img src="./30mahesh-babu-family.jpgJ" width="150px" alt="">
+</div></center>
+
+
+<div><p class="animate__animated animate__rotateIn">Born on 9th August 1975, as Mahesh Ghattamaneni, Mahesh Babu is a popular Indian actor who works in the Telugu film industry. He is the son of the celebrated Telugu actor, Superstar Krishna, and Indira. After making his debut as a lead actor in the year 1999, Mahesh Babu has been part of many successful movies and has bagged more than 15 awards in his career; popular awards include Nandi Awards, Filmfare Awards, CineMAA Awards, South Indian International Movie Awards, and International Indian Film Academy Awards. Besides being an actor Mahesh Babu is a producer and philanthropist as well.
+</p></div>
+
+    </div>
+    
+</body>
+</html>
